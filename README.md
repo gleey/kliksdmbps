@@ -81,21 +81,6 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal A
    ```
    Aplikasi dapat diakses melalui browser di `http://127.0.0.1:8000`.
 
-## Akun Demo Pengujian
-
-Setelah berhasil menjalankan seed (`php artisan db:seed`), Anda dapat masuk ke panel admin menggunakan akun pengujian berikut:
-
-1. **Role: Admin Pengelola** (Akses Penuh + Pengaturan)
-   - **Username**: `admin`
-   - **Password**: `Admin@2024`
-
-2. **Role: Admin Kepegawaian**
-   - **Username**: `kepegawaian`
-   - **Password**: `Kepeg@2024`
-
-> [!WARNING]
-> Harap segera mengubah kredensial default di atas melalui panel admin sebelum melakukan deployment ke server production.
-
 ## Detail Arsitektur Keamanan & Peran
 
 - **Autentikasi**: Menggunakan sistem Session Guard bawaan Laravel (Laravel Auth).
